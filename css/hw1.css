@@ -1,0 +1,127 @@
+body{
+     margin:2%;
+     font-size:125%;
+     padding:2px;
+}
+
+
+header{
+       background:#B3B3B3;
+       background-image: url("http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg");
+       height:40%;
+       padding:5px 40px 40px;
+
+}
+h1{
+     text-align:center;
+     color:#ffffff;
+     font-size:150%;
+     text-transform:uppercase;
+}
+nav a{
+     display:inline-block;
+     width:12%;
+     height:20%;
+     padding:10px 5px 10px;
+     text-align:center;
+     color:#000000;
+     background:#ffffff;
+     opacity:0.5;
+     text-decoration:none;
+     border-radius:5px;
+     margin-left:80px;
+     margin-right:60px;
+      
+
+}
+ nav a.active{
+	color:#0000ff;
+	background:"#ffffff";
+	opacity:1.0;
+}
+
+
+.left img{
+	display:block;
+	width:80%;
+	border:2px solid #000000;
+	margin:0 auto;
+  margin-top:2%;
+  margin-bottom:10%;
+	
+	
+}
+.left{
+    display:inline-block;
+    width:20%;
+    background:#465447;
+    padding-top:2%;
+    float:left;
+    overflow:auto;
+
+}
+}
+.right{
+       display:inline-block;
+       width:80%;
+       float:left;
+       clear:both;
+       overflow:auto;
+}
+
+table{
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size:70%;
+    font-weight:bold;
+    width:55%;
+    margin-right: 15%;
+    float:right;
+    box-sizing:border-box;
+    line-height:30px;
+    text-align:center;
+
+  }
+
+
+
+th{
+
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color:#007600;
+  color:#ffffff;
+  background:-webkit-linear-gradient(#007600,#419a41c2); 
+  background:-o-linear-gradient(#007600,#419a41c2);
+  background:-moz-linear-gradient(#007600,#419a41c2);
+  background:linear-gradient(#007600,#419a41c2);
+  border:1px solid #ddd; 
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom:3px solid #cfff00;
+
+}
+tr{
+  opacity:.8;
+
+}
+tr:hover{
+  opacity:1;
+}
+tr th:first-child{
+    padding-left:15px;
+    text-align:left;
+
+}
+td:first-child{
+    padding-left:15px;
+    text-align:left;
+
+}
+td{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color:#b7dc53c2;
+  color:#787878;
+  border:1px solid #ddd;
+  border-radius:2px;
+}
